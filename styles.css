@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    background: black;
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.postcard {
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 12px;
+}
+
+.postcard-header {
+    display: flex;
+}
+
+.postcard-header img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.postcard-header h1 {
+    width: 80%;
+    margin: auto;
+}
+
+.postcard-body {
+    display: flex;
+}
+
+.body-left p:first-child {
+    margin-top: 12px;
+}
+
+.body-left,
+.body-right {
+    padding: 12px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.postcard-footer {
+    text-align: center;
+}
+
+button {
+    background-color: darkgrey;
+    padding: 12px;
+}
